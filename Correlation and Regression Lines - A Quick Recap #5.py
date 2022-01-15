@@ -1,7 +1,6 @@
-var_x = float(input()) ** 2
-# y = (20*x - 107) / 9
+# slope1 = cov(x,y)/Var(X) = 5/4
+# slope2 = cov(x,y)/Var(Y) = 20/9
+# Var(Y) = slope2/slope1 * Var(X)
 
-# var(3x) = 9 * var(x)
-var_y = ((20/9)**2) * var_x
-
-print(round(var_y, 1))
+std(X) = 3
+Var(Y) = 16
